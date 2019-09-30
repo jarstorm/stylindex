@@ -8,10 +8,13 @@ The project it's an easy React app to fecth a GraphQL endpoint.
 You could check my production build here: https://trusting-noether-91f454.netlify.com/
 
 ### Coding decisions
-It took me some time to start with Apollo client because I used to work with React, Redux and REST endpoint.
+- It took me some time to start with Apollo client because I used to work with React, Redux and REST endpoint.
 
-I didn't use Redux here because I thnk it's not needed. However if you need to store your login credential for example you probably need it.
+- I didn't use Redux here because I thnk it's not needed. However if you need to store your login credential for example you probably need it.
 
+- Only one single class (Pomemon.js) it's tested using Jest and Enzyme.
+
+- 
 
 ### `yarn install`
 You should run this command in order to download every library needed for development.
