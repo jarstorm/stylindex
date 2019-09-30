@@ -1,0 +1,9 @@
+.pokemon-avatar {
+	height: 40px;
+	float: right;
+	margin-top: -10px;
+}
+
+.more-info-link {
+	float: right;
+}
