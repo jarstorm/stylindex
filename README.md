@@ -10,9 +10,9 @@ You could check my production build here: https://trusting-noether-91f454.netlif
 ### Coding decisions
 - It took me some time to start with Apollo client because I used to work with React, Redux and REST endpoint.
 
-- I didn't use Redux here because I thnk it's not needed. However if you need to store your login credential for example you probably need it.
+- I didn't use Redux here because I think it's not needed for this simple app. Also I read this link to avoid using Redux with Apollo: https://hackernoon.com/how-graphql-replaces-redux-3fff8289221d
 
-- Only one single class (Pomemon.js) it's tested using Jest and Enzyme.
+- Only one single class (Pomemon.js) it's tested using Jest and Enzyme because I think the rest of the components will be more or less the same testig because they all are very easy ones.
 
 ### `yarn install`
 You should run this command in order to download every library needed for development.
