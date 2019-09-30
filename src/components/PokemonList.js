@@ -9,8 +9,8 @@ export default class PokemonList extends Component {
 		return (
 	    	<div className="col-md-12">
 				{this.props.list.map((pokemonData) => 
-					<div className="col-md-3 pokemon-detail">
-						<Pokemon key={pokemonData.id} data={pokemonData} />
+					<div className="col-md-3 pokemon-detail" key={pokemonData.id}>
+						<Pokemon data={pokemonData} />
 						<Link to={"/detail/" + pokemonData.id} className="more-info-link">+More Info</Link>
 					</div>	
 				)}

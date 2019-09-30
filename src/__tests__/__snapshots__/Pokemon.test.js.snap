@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Draw Insights component 1`] = `
+<div>
+  <div
+    className="panel panel-default"
+  >
+    <div
+      className="panel-heading"
+    >
+      <h3>
+        Bulbasaur
+        <img
+          className="pokemon-avatar"
+          src="https://img.pokemondb.net/artwork/bulbasaur.jpg"
+        />
+      </h3>
+    </div>
+    <div
+      className="panel-body"
+    >
+      <p>
+        Id: 
+        UG9rZW1vbjowMDE=
+      </p>
+      <p>
+        Number: 
+        001
+      </p>
+      <p>
+        Max HP: 
+        1071
+      </p>
+      <p>
+        Max CP: 
+        951
+      </p>
+      <p>
+        Types: 
+        Grass
+        Poison
+      </p>
+      <div />
+    </div>
+  </div>
+</div>
+`;

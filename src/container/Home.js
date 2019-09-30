@@ -1,22 +1,9 @@
 import React from 'react';
-import gql from 'graphql-tag';
-import { Query, Mutation } from 'react-apollo';
+import { Query } from 'react-apollo';
 
 import PokemonList from '../components/PokemonList';
 
-const FETCH_POKEMONS = gql`
-{
-  pokemons(first: 100) {
-    id
-    number
-    name
-    maxCP
-    maxHP
-    image
-    types
-  }
-}
-`;
+import { FETCH_POKEMONS } from '../graphql.js';
 
 const App = () => (
   <Query query={FETCH_POKEMONS}>

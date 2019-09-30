@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom'
 import EvolutionList from './EvolutionList';
 
 import './Pokemon.css';
@@ -11,7 +10,7 @@ export default class Pokemon extends Component {
       <div className={this.props.extraClass}>
         <div className="panel panel-default">
           <div className="panel-heading">
-            <h3>{data.name}<img className="pokemon-avatar" src={data.image}/></h3>  
+            <h3>{data.name}<img className="pokemon-avatar" src={data.image} alt="pokemon avatar"/></h3>  
           </div>
           <div className="panel-body">
             <p>Id: {data.id}</p>

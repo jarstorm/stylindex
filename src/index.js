@@ -7,17 +7,12 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 
 import App from './App';
 
+const POKEMON_ENDPOINT = 'https://pokemon-samdavies.stylindex.now.sh';
+
 const cache = new InMemoryCache();
 
-const GITHUB_BASE_URL = 'https://pokemon-samdavies.stylindex.now.sh';
-
 const httpLink = new HttpLink({
-  uri: GITHUB_BASE_URL,
-  headers: {
-    authorization: `Bearer ${
-      process.env.REACT_APP_GITHUB_PERSONAL_ACCESS_TOKEN
-    }`,
-  },
+  uri: POKEMON_ENDPOINT
 });
 
 const client = new ApolloClient({
