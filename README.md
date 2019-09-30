@@ -14,8 +14,6 @@ You could check my production build here: https://trusting-noether-91f454.netlif
 
 - Only one single class (Pomemon.js) it's tested using Jest and Enzyme.
 
-- 
-
 ### `yarn install`
 You should run this command in order to download every library needed for development.
 
